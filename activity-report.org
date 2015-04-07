@@ -1,10 +1,10 @@
 *** TODO
 * Reporting
-*** TODO ** Finding
-** TODO **Development
-**Journal
-***7 avril
-****Done
-****Blocking points and questions
-****Planned
-**Conclusion
+** Finding
+** Development
+** Journal
+*** 7 avril
+**** Done
+**** Blocking points and questions
+**** Planned
+** Conclusion
