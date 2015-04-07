@@ -1,7 +1,7 @@
 *** TODO
-*Reporting
-**Finding
-**Development
+* Reporting
+*** TODO ** Finding
+** TODO **Development
 **Journal
 ***7 avril
 ****Done
