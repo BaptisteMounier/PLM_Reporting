@@ -2,6 +2,8 @@
 * Journal
 ** 8 avril
 *** Done
+**** Documentation
+***** Syntaxe programmes en C, Phyton, Scala
 **** Etude de l'existant
 ***** WebPLM, Structure du projet
 ***** Outils actuels intéressant pour Blockly (https://developers.google.com/blockly/)
