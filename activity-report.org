@@ -12,15 +12,15 @@
 ****** JS Interpreter, traduction en js et execution pas à pas avec notification du block en cours
 ****** Code Editor : traduction des blocks en js ou Python ou Dart ou XML
 *** Blocking points and questions
-**** Ajout potentiellement possible : définir un nombre maximum de block
-**** Où mettre la fenêtre de Blockly ?
-***** Dans un onglet au même niveau que Resultat et Logs afin de pouvoir voir le code et les blocks en même temps
-***** Dans une nouvelle zone mais qui risque de réduire la taille dédiée aux autres
-***** Entre le code et le résultat
-***** Avec Monde et Objectif dans un autre onglet
+***** Ajout potentiellement possible : définir un nombre maximum de block
+***** Où mettre la fenêtre de Blockly ?
+****** Dans un onglet au même niveau que Resultat et Logs afin de pouvoir voir le code et les blocks en même temps
+****** Dans une nouvelle zone mais qui risque de réduire la taille dédiée aux autres
+****** Entre le code et le résultat
+****** Avec Monde et Objectif dans un autre onglet
 *** Planned
-**** Test de fonctionnement des différents outils déjà existants pour les associer pour un rendu les comprennants
-**** Chercher un moyen de passer du code à la création de blocks
+***** Test de fonctionnement des différents outils déjà existants pour les associer pour un rendu les comprennants
+***** Chercher un moyen de passer du code à la création de blocks
 ** 7 avril
 *** Done
 **** Création dépot de Reporting
