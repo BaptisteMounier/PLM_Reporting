@@ -3,16 +3,14 @@
 ** 8 avril
 *** Done
 **** Etude de l'existant
-***** WebPLM
-****** Structure du projet
-***** Blockly
-****** Outils actuels intéressant pour Blockly ("https://developers.google.com/blockly/")
-******* Resizable, permettant de donner une taille dynamique par rapport à la page
-******* Toolbox, permettant de créer des catégories de block (dans le menu)
-******* Block Factory, permettant de créer ses propres blocks (dans le cas de la création d'un fonction pour par un enseignant un exercice)
-******* Generate JavaScript, traduisant les blocks en js et qui l'execute
-******* JS Interpreter, traduction en js et execution pas à pas avec notification du block en cours
-******* Code Editor : traduction des blocks en js ou Python ou Dart ou XML
+***** WebPLM, Structure du projet
+***** Outils actuels intéressant pour Blockly ("https://developers.google.com/blockly/")
+****** Resizable, permettant de donner une taille dynamique par rapport à la page
+****** Toolbox, permettant de créer des catégories de block (dans le menu)
+****** Block Factory, permettant de créer ses propres blocks (dans le cas de la création d'un fonction pour par un enseignant un exercice)
+****** Generate JavaScript, traduisant les blocks en js et qui l'execute
+****** JS Interpreter, traduction en js et execution pas à pas avec notification du block en cours
+****** Code Editor : traduction des blocks en js ou Python ou Dart ou XML
 *** Blocking points and questions
 **** Ajout potentiellement possible : définir un nombre maximum de block
 **** Où mettre la fenêtre de Blockly ?
