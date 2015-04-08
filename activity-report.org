@@ -1,19 +1,15 @@
 *** TODO
-* Reporting
-** Finding
-** Development
-** Journal
-*** 7 avril
+* Journal
+** 7 avril
 **** Done
-***** Création dépot de Reporting
-***** Réalisation des cours sur Angular.JS de Code School
-***** Première exploration de Blockly (documentation et code source sur GitHub)
-***** Exploration de l'implémentation actuelle de PLM
+****** Création dépot de Reporting
+****** Réalisation des cours sur Angular.JS de Code School
+****** Première exploration de Blockly (documentation et code source sur GitHub)
+****** Exploration de l'implémentation actuelle de PLM
 **** Blocking points and questions
-***** Rendu de l'ajout de Blockly
-****** Blockly comme un language (dans le menu au même titre que java, scala...)
-****** En supplément de la zone où s'affiche les commandes (avec l'un ou l'autre ou les deux modifiables et mise à jour du second)
+****** Rendu de l'ajout de Blockly
+******** Blockly comme un language (dans le menu au même titre que java, scala...)
+******** En supplément de la zone où s'affiche les commandes (avec l'un ou l'autre ou les deux modifiables et mise à jour du second)
 **** Planned
-***** Regarder le retour de Blockly (language, forme)
-***** Rechercher une liaison réalisable entre Blockly et PLM
-** Conclusion
+****** Regarder le retour de Blockly (language, forme)
+****** Rechercher une liaison réalisable entre Blockly et PLM
