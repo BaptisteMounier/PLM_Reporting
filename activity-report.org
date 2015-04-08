@@ -4,7 +4,7 @@
 *** Done
 **** Etude de l'existant
 ***** WebPLM, Structure du projet
-***** Outils actuels intéressant pour Blockly ("https://developers.google.com/blockly/")
+***** Outils actuels intéressant pour Blockly (https://developers.google.com/blockly/)
 ****** Resizable, permettant de donner une taille dynamique par rapport à la page
 ****** Toolbox, permettant de créer des catégories de block (dans le menu)
 ****** Block Factory, permettant de créer ses propres blocks (dans le cas de la création d'un fonction pour par un enseignant un exercice)
