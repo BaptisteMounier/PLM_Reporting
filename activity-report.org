@@ -2,13 +2,32 @@
 * Bibliographie
 - Base PLM
  - https://github.com/oster/PLM
-- Fork GitHub
+- Fork PLM
  - https://github.com/BaptisteMounier/PLM
 - Base WebPLM
  - https://github.com/MatthieuNICOLAS/webPLM
 - Fork WebPLM
  - https://github.com/BaptisteMounier/webPLM
+- Base Blockly
+ - https://github.com/google/blockly
 * Journal
+** 9 avril
+*** Activité
+- Finition installation de l'environnement de travail (dépôt, ,fork, pull, gcc...)
+- Début des mofications de l'existant pour tester de quoi fait quoi et où
+- Conférence sur la sécurité informatique
+- Début des tentatives d'ajout de Blockly comme un nouveau langage dans la liste
+ - Création classe PLM/src/plm/core/lang/LangBlockly.java
+*** Problème
+- Ajout du "langage" Blockly dans la base du projet, PLM de base (en cours de réalisation) ou ajout à partir de la version web ?
+- Taille maximal de l'image du langage (j'ai ajouté une image de 5 ko alors que les images actuelles font au maximum 1 ko) ?
+- Liaison entre les deux projets sur lesquels j'ai effectué des fork/branches automatique ou paramétrages à effectuer ?
+*** Objectif
+- Ajouter Blockly dans la liste des langages
+- Permettre la selection de Blockly dans la liste des langages
+- Modification de l'affichage de la zone du code pour laisser la place à Blockly
+- Se pencher sur la correspondance entre l'exercice en cours avec ses langages supportés et Blockly
+- Regarder comment récupérer le code généré par Blockly (probablement en python mais à définir)
 ** 8 avril
 *** Activité
 - Documentation
