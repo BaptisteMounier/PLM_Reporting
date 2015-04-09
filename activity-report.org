@@ -1,4 +1,13 @@
 *** TODO
+* Bibliographie
+- Base PLM
+ - https://github.com/oster/PLM
+- Fork GitHub
+ - https://github.com/BaptisteMounier/PLM
+- Base WebPLM
+ - https://github.com/MatthieuNICOLAS/webPLM
+- Fork WebPLM
+ - https://github.com/BaptisteMounier/webPLM
 * Journal
 ** 8 avril
 *** Activité
