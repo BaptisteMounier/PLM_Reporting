@@ -3,8 +3,7 @@
 ** 8 avril
 *** Activité
 - Documentation
-****
-- Syntaxe programmes en C, Phyton, Scala
+-- Syntaxe programmes en C, Phyton, Scala
 **** Etude de l'existant
 - WebPLM, Structure du projet
 **** Outils actuels intéressant pour Blockly (https://developers.google.com/blockly/)
