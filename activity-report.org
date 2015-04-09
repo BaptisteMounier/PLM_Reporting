@@ -18,6 +18,7 @@
 - Conférence sur la sécurité informatique
 - Début des tentatives d'ajout de Blockly comme un nouveau langage dans la liste
  - Création classe PLM/src/plm/core/lang/LangBlockly.java
+ - Modification classe PLM/src/plm/core/model/Game.java
 *** Problème
 - Ajout du "langage" Blockly dans la base du projet, PLM de base (en cours de réalisation) ou ajout à partir de la version web ?
 - Taille maximal de l'image du langage (j'ai ajouté une image de 5 ko alors que les images actuelles font au maximum 1 ko) ?
