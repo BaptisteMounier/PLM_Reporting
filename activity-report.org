@@ -11,6 +11,18 @@
 - Base Blockly
  - https://github.com/google/blockly
 * Journal
+** 10 avril
+*** Activité
+- Suite des modifications pour l'ajout de Blockly en langage disponible
+- Corrections de divers problèmes pour repartir sur une base saine et fonctionnelle
+*** Problème
+- Commandes dans le fichier ant incompatible avec mon l'environement windows actuel
+- Précédentes modifications réalisées sur un fork de la mauvaise branche du projet PLM
+*** Objectif
+- Refaire les modifications des classes LangBlockly et Game
+- Ajouter Blockly comme langage pour le premier exercice
+ - Création de nouveaux fichiers en .blockly dupliqués des .py pour commencer
+ - Trouver un moyen de générer un schéma Blockly à partir d'un code python
 ** 9 avril
 *** Activité
 - Finition installation de l'environnement de travail (dépôt, ,fork, pull, gcc...)
@@ -21,7 +33,9 @@
  - Modification classe PLM/src/plm/core/model/Game.java
 *** Problème
 - Ajout du "langage" Blockly dans la base du projet, PLM de base (en cours de réalisation) ou ajout à partir de la version web ?
+ - Version web
 - Taille maximal de l'image du langage (j'ai ajouté une image de 5 ko alors que les images actuelles font au maximum 1 ko) ?
+ - Pas de problème
 - Liaison entre les deux projets sur lesquels j'ai effectué des fork/branches automatique ou paramétrages à effectuer ?
 *** Objectif
 - Ajouter Blockly dans la liste des langages
@@ -49,6 +63,7 @@
  - Dans une nouvelle zone mais qui risque de réduire la taille dédiée aux autres
  - Entre le code et le résultat
  - Avec Monde et Objectif dans un autre onglet
+  - A la place de l'éditeur de source actuel
 *** Objectif
 - Test de fonctionnement des différents outils déjà existants pour les associer pour un rendu les comprennants
 - Chercher un moyen de passer du code à la création de blocks
