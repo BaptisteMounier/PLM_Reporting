@@ -14,10 +14,13 @@
 ** 10 avril
 *** Activité
 - Suite des modifications pour l'ajout de Blockly en langage disponible
-- Corrections de divers problèmes pour repartir sur une base saine et fonctionnelle
+- Corrections de divers problèmes pour repartir sur une base saine et
+  fonctionnelle
 *** Problème
-- Commandes dans le fichier ant incompatible avec mon l'environement windows actuel
-- Précédentes modifications réalisées sur un fork de la mauvaise branche du projet PLM
+- Commandes dans le fichier ant incompatible avec mon l'environement
+  windows actuel
+- Précédentes modifications réalisées sur un fork de la mauvaise
+  branche du projet PLM
 *** Objectif
 - Refaire les modifications des classes LangBlockly et Game
 - Ajouter Blockly comme langage pour le premier exercice
