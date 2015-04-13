@@ -11,6 +11,24 @@
 - Base Blockly
  - https://github.com/google/blockly
 * Journal
+** 13 avril
+*** Activité
+- Création d'un langage Blockly (code en python)
+- Son ajout dans les listes de langages disponibles pour quelques exercices
+- Affichage du code correspondant dans l'éditeur de source
+- Ajout nouveau .jar dans le webPLM
+- Documentation
+ - CodeMirror
+ - Blockly
+ - Implémentation actuelle
+*** Problème
+- L'élément Blockly dans la liste des langages disponible n'est pas à la même taille que les autres langages
+- Situation de l'ajout d'un nouvel exercice avec Blockly disponible ?
+*** Objectif
+- Remplacer l'aspect de l'éditeur de source actuel par l'interface de Blockly lorsqu'on sélectionne Blockly comme langage
+ - Création de blocs correspondant aux fonctions déjà fournis par l'enseignant
+- Générer du code python à envoyer au serveur lors des executions de l'éditeur de source à travers Blockly
+- Générer un affichage Blockly à partir d'un code en python
 ** 10 avril
 *** Activité
 - Suite des modifications pour l'ajout de Blockly en langage disponible
