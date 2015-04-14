@@ -11,6 +11,17 @@
 - Base Blockly
  - https://github.com/google/blockly
 * Journal
+** 14 avril
+*** Activité
+- Affichage de l'interface Blockly
+- Retouche image et code de la base plm pour Blockly
+ - Mauvaise taille image
+*** Problème
+- Lien entre Angularjs et Blockly à approfondir
+*** Objectif
+- Modification de l'ajout de l'interface de Blockly
+ - A mettre dans des fichiers extérieur et jouer avec les appels plutôt que de le mettre en dure dans l'html afin de simplifier la "confiuration" de Blockly
+ - Penser à la génération de code
 ** 13 avril
 *** Activité
 - Création d'un langage Blockly (code en python)
