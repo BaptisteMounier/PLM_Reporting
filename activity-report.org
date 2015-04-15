@@ -11,6 +11,20 @@
 - Base Blockly
  - https://github.com/google/blockly
 * Journal
+** 15 avril
+*** Activité
+- Test pour extraire Blockly de la iframe pour une implentation en passant par une directive/service
+ - Configuration direct, sans jongler avec les getteur/setteur de la iframe et de la page direct
+ - Plus "propre" à mon sens
+ - Utilisation de services d'AngularJS
+*** Problème
+- Fonctionnement des outils AngularJS mal connus
+- Liaison concrète entre les fonctions codées et celles existantes de Blockly encore flou
+*** Objectif
+- Finir l'extraction de la iframe vers un état stable
+- Commencer les liaisons avec la page web
+ - Tel que : Run => Génération de code
+- Générer le code du schèma Blockly
 ** 14 avril
 *** Activité
 - Affichage de l'interface Blockly
