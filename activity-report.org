@@ -11,6 +11,16 @@
 - Base Blockly
  - https://github.com/google/blockly
 * Journal
+** 16 avril
+*** Activité
+- Mise en place de blockly avec AngularJS en m'appuyant sur la réalisation de cdjackson
+ - Séparation de .service .provider .config .directive
+  - Pour rester dans la structure du projet existant
+ - Non fonctionnelle pour le moment
+*** Problème
+*** Objectif
+- Terminer la séparation pour un outil blockly fonctionnel
+- Poursuivre avec la liaison du code fournis par un schéma Blockly
 ** 15 avril
 *** Activité
 - Test pour extraire Blockly de la iframe pour une implentation en passant par une directive/service
