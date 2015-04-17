@@ -11,6 +11,22 @@
 - Base Blockly
  - https://github.com/google/blockly
 * Journal
+** 17 avril
+*** Activité
+- Limitation de la taille de blockly pour éviter un agrandissement de la fenêtre à chaque action
+- Ajout de bloquly dans la liste des langages
+- Ajout de quelques nouveaux blocs de test
+*** Problème
+- Blockly n'apparait qu'après avoir modifier la taille de la fenêtre web
+ - Problème à éclaircir
+*** Objectif
+- Rendre immédiat l'affichage de blockly à sa sélection
+- Mettre en place tous les blocs d'un exercice
+ - Afin de pouvoir continuer l'ajout complet de blockly pour une situation
+- Création de tous les blocks nécessaire à PLM
+ - Séparation de leur ajout dans la liste disponible suivant l'exercice en cours
+- Gestion de la sortie (en code) de blockly pour l'execution de l'exercice
+ - Et pour le stockage
 ** 16 avril
 *** Activité
 - Mise en place de blockly avec AngularJS en m'appuyant sur la réalisation de cdjackson
