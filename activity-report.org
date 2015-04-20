@@ -11,6 +11,19 @@
 - Base Blockly
  - https://github.com/google/blockly
 * Journal
+** 20 avril
+*** Activité
+- Création d'un début de base de block
+ - Basé pour le moment sur l'exercice Moria
+ - Génération de code python pour chaque block ajouté
+*** Problème
+- La génération pose encore quelques problèmes
+ - Erreur js levées
+ - Retour chariot dans la chaine de caractère formée
+*** Objectif
+- Corriger les problèmes liés à la génération du code
+- Faire le lien entre l'exercice lancé et les blocks disponibles
+- Former toute la base de block
 ** 17 avril
 *** Activité
 - Limitation de la taille de blockly pour éviter un agrandissement de la fenêtre à chaque action
