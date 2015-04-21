@@ -11,6 +11,16 @@
 - Base Blockly
  - https://github.com/google/blockly
 * Journal
+** 21 avril
+*** Activité
+- Génération du code depuis Blockly
+- Réalisation de l'exercice par le code fournis par Blockly
+- Création de tous les blocks nécessaires à la leçon "Welcome"
+*** Problème
+- Ajout de "99," à la fin du code généré pour chaque block lié
+*** Objectif
+- Nettoyer le code généré
+- Lier la liste des blocks à afficher avec l'exercice en cours
 ** 20 avril
 *** Activité
 - Création d'un début de base de block
