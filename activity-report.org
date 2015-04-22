@@ -11,6 +11,17 @@
 - Base Blockly
  - https://github.com/google/blockly
 * Journal
+** 22 avril
+*** Activité
+- Ajuster le code généré
+ - Réalisation de l'exercice Moria possible à l'aide de Blockly
+- Permettre à l'utilisateur de créer son propre block fonction
+*** Problème
+- L'ajout des blocks créés par l'utilisateur dans le menu de block de gauche
+*** Objectif
+- Réussir à utiliser les blocks créés par l'utilisateur
+- Définir tous les blocks de base nécessaires pour PLM
+ - Et les séparer par exercice
 ** 21 avril
 *** Activité
 - Génération du code depuis Blockly
