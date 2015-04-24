@@ -21,7 +21,7 @@
   gauche
 *** Objectif
 - Réussir à utiliser les blocks créés par l'utilisateur
-[] Définir tous les blocks de base nécessaires pour PLM
+[ ] Définir tous les blocks de base nécessaires pour PLM
   - Et les séparer par exercice
 ** 21 avril
 *** Activité
