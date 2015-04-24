@@ -50,10 +50,10 @@
 *** Activité
 - Limitation de la taille de blockly pour éviter un agrandissement de
   la fenêtre à chaque action
-- Ajout de bloquly dans la liste des langages
+- Ajout de blockly dans la liste des langages
 - Ajout de quelques nouveaux blocs de test
 *** Problème
-- Blockly n'apparait qu'après avoir modifier la taille de la fenêtre web
+- Blockly n'apparait qu'après avoir modifié la taille de la fenêtre web
   - Problème à éclaircir
 *** Objectif
 - Rendre immédiat l'affichage de blockly à sa sélection
@@ -91,7 +91,7 @@
 - Finir l'extraction de la iframe vers un état stable
 - Commencer les liaisons avec la page web
   - Tel que : Run => Génération de code
-- Générer le code du schèma Blockly
+- Générer le code du schéma Blockly
 ** 14 avril
 *** Activité
 - Affichage de l'interface Blockly
@@ -102,7 +102,7 @@
 *** Objectif
 - Modification de l'ajout de l'interface de Blockly
   - A mettre dans des fichiers extérieur et jouer avec les appels
-    plutôt que de le mettre en dure dans l'html afin de simplifier la
+    plutôt que de le mettre en dur dans l'html afin de simplifier la
     "confiuration" de Blockly
   - Penser à la génération de code
 ** 13 avril
