@@ -20,7 +20,9 @@
 * Journal
 ** 24 avril
 *** Activité
+- Divers test sur le passage de la toolbox depuis exercise.controller.js
 *** Problème
+- Projet d'appuis AngularJS Blockly non fini et documentation associé non mis à jour par l'auteur
 *** Objectif
 - [ ] Lier Blockly avec l'exercice en cours
 - [ ] Gestion du stockage du code généré
