@@ -1,16 +1,42 @@
 *** TODO
 * Bibliographie
-- Base PLM
-  - https://github.com/oster/PLM
-- Fork PLM
-  - https://github.com/BaptisteMounier/PLM
-- Base WebPLM
-  - https://github.com/MatthieuNICOLAS/webPLM
-- Fork WebPLM
-  - https://github.com/BaptisteMounier/webPLM
-- Base Blockly
-  - https://github.com/google/blockly
+- [[https://github.com/oster/PLM][Base PLM]]
+- [[https://github.com/BaptisteMounier/PLM][Fork PLM]]
+- [[https://github.comb.com/matthieunicolas/webPLM][Base WebPLM]]
+- [[https://github.com/BaptisteMounier/webPLM][Fork WebPLM]]
+- [[https://github.com/google/blockly][Base Blockly]]
+* Utilisation
+** WebPLM
+- Ce reporting fait réference à [[https://github.com/BaptisteMounier/webPLM][Fork WebPLM]], ce projet est une version de [[https://github.comb.com/matthieunicolas/webPLM][Base WebPLM]] utilisant [[https://github.com/google/blockly][Base Blockly]] comme un langages de programmation. Il utilise [[https://www.playframework.com/][Play Framework]] en Back-end et [[https://angularjs.org/][AngularJS]] en front-end.
+** Démarrage
+- Il est d'abord nécessaire d'[[https://www.playframework.com/documentation/2.3.x/Installing][installer Play Framework]]
+- Puis de cloner le dépôt [[https://github.com/BaptisteMounier/webPLM][Fork WebPLM]]
+  - git clone https://github.com/BaptisteMounier/webPLM.git
+- Il faut ensuite lancer le serveur
+  - cd path/webPLM
+  - activator start
+- Enfin d'accèder au site web
+  - [[http://localhost:9000][localhost:9000]]
 * Journal
+** 24 avril
+*** Activité
+- Divers test sur le passage de la toolbox depuis exercise.controller.js
+*** Problème
+- Projet d'appuis AngularJS Blockly non fini et documentation associé non mis à jour par l'auteur
+*** Objectif
+- [ ] Lier Blockly avec l'exercice en cours
+- [ ] Gestion du stockage du code généré
+- [ ] Générer un schéma Blockly à partir d'un code Python
+** 23 avril
+*** Activité
+- Création et utilisation des variables et fonctions de l'utilisateur
+*** Problème
+*** Objectif
+- [X] Création de tous les blocks nécessaires à PLM
+- [X] Générer le code du schéma Blockly
+- [ ] Lier Blockly avec l'exercice en cours
+- [ ] Gestion du stockage de code généré
+- [ ] Générer un schéma Blockly à partir d'un code Python
 ** 22 avril
 *** Activité
 - Ajuster le code généré
@@ -20,9 +46,13 @@
 - L'ajout des blocks créés par l'utilisateur dans le menu de block de
   gauche
 *** Objectif
-- Réussir à utiliser les blocks créés par l'utilisateur
-- Définir tous les blocks de base nécessaires pour PLM
-  - Et les séparer par exercice
+- [ ] Création de tous les blocks nécessaires à PLM
+  - Ajout automatique des variables fonctions crées par l'utilisateur
+- [ ] Générer le code du schéma Blockly
+  - Utilisation des blocks créés par l'utilisateur
+- [ ] Lier Blockly avec l'exercice en cours
+- [ ] Gestion du stockage du code généré
+- [ ] Générer un schéma Blockly à partir d'un code Python
 ** 21 avril
 *** Activité
 - Génération du code depuis Blockly
@@ -31,8 +61,15 @@
 *** Problème
 - Ajout de "99," à la fin du code généré pour chaque block lié
 *** Objectif
-- Nettoyer le code généré
-- Lier la liste des blocks à afficher avec l'exercice en cours
+- [X] Mettre en place tous les blocks d'un exercice (Moria, Welcome)
+- [ ] Création de tous les blocks nécessaire à PLM
+  - Ajout automatique des variables et fonctions créées par l'utilisateur
+- [ ] Générer le code du schéma Blockly
+  - Nettoyer le code
+  - Variables et fonctions créées par l'utilisateur
+- [ ] Lier BLockly avec l'exercice en cours
+- [ ] Gestion du stockage du code généré
+- [ ] Générer un schéma Blockly à partir d'un code Python
 ** 20 avril
 *** Activité
 - Création d'un début de base de block
@@ -43,9 +80,15 @@
   - Erreur js levées
   - Retour chariot dans la chaine de caractère formée
 *** Objectif
-- Corriger les problèmes liés à la génération du code
-- Faire le lien entre l'exercice lancé et les blocks disponibles
-- Former toute la base de block
+- [X] Rendre immédiat l'affichage de Blockly à sa sélection
+- [ ] Mettre en place tous les blocs d'un exercice
+  - Choix de l'exercice Moria de la leçon Welcome
+- [ ] Création de tous les blocks nécessaire à PLM
+- [ ] Générer le code du schéma Blockly
+  - Corriger les problèmes liés à la génération du code
+- [ ] Lier Blockly avec l'exercice en cours
+- [ ] Gestion du stockage du code généré
+- [ ] Générer un schéma Blockly à partir d'un code Python
 ** 17 avril
 *** Activité
 - Limitation de la taille de blockly pour éviter un agrandissement de
@@ -56,14 +99,18 @@
 - Blockly n'apparait qu'après avoir modifié la taille de la fenêtre web
   - Problème à éclaircir
 *** Objectif
-- Rendre immédiat l'affichage de blockly à sa sélection
-- Mettre en place tous les blocs d'un exercice
+- [X] Modification de l'ajout de l'interface de Blockly
+- [X] Lier Blockly avec la page web
+- [ ] Rendre immédiat l'affichage de blockly à sa sélection
+- [ ] Mettre en place tous les blocs d'un exercice
   - Afin de pouvoir continuer l'ajout complet de blockly pour une situation
-- Création de tous les blocks nécessaire à PLM
-  - Séparation de leur ajout dans la liste disponible suivant
-    l'exercice en cours
-- Gestion de la sortie (en code) de blockly pour l'execution de l'exercice
- - Et pour le stockage
+- [ ] Création de tous les blocks nécessaire à PLM
+  - Séparation de leur ajout dans la liste disponible suivant l'exercice en cours
+- [ ] Générer le code du schéma Blockly
+  - Execution de l'exercice
+- [ ] Lier Blockly avec l'exercice en cours
+- [ ] Gestion du stockage du code généré
+- [ ] Générer un schéma Blockly à partir d'un code Python
 ** 16 avril
 *** Activité
 - Mise en place de blockly avec AngularJS en m'appuyant sur la
@@ -73,8 +120,14 @@
   - Non fonctionnelle pour le moment
 *** Problème
 *** Objectif
-- Terminer la séparation pour un outil blockly fonctionnel
-- Poursuivre avec la liaison du code fournis par un schéma Blockly
+- [ ] Modification de l'ajout de l'interface de Blockly
+  - Finir l'extraction de la iframe vers un état stable
+- [ ] Lier Blockly avec la page web
+  - Run => Génération de code
+- [ ] Générer le code du schéma Blockly
+- [ ] Lier Blockly avec l'exercice en cours
+  - Limiter les blocks disponbles
+- [ ] Générer un schéma Blockly à partir d'un code Python
 ** 15 avril
 *** Activité
 - Test pour extraire Blockly de la iframe pour une implentation en
@@ -88,10 +141,14 @@
 - Liaison concrète entre les fonctions codées et celles existantes de
   Blockly encore flou
 *** Objectif
-- Finir l'extraction de la iframe vers un état stable
-- Commencer les liaisons avec la page web
-  - Tel que : Run => Génération de code
-- Générer le code du schéma Blockly
+- [ ] Modification de l'ajout de l'interface de Blockly
+  - Finir l'extraction de la iframe vers un état stable
+- [ ] Lier Blockly avec la page web
+  - Run => Génération de code
+- [ ] Générer le code du schèma Blockly
+- [ ] Lier Blockly avec l'exercice en cours
+  - Limiter les blocks disponibles
+- [ ] Générer un schéma Blockly à partir d'un code Python
 ** 14 avril
 *** Activité
 - Affichage de l'interface Blockly
@@ -100,11 +157,13 @@
 *** Problème
 - Lien entre Angularjs et Blockly à approfondir
 *** Objectif
-- Modification de l'ajout de l'interface de Blockly
-  - A mettre dans des fichiers extérieur et jouer avec les appels
-    plutôt que de le mettre en dur dans l'html afin de simplifier la
-    "confiuration" de Blockly
-  - Penser à la génération de code
+- [X] Permettre la selection de Blockly dans la liste des langages
+- [ ] Modification de l'ajout de l'interface de Blockly
+  - A mettre dans des fichiers extérieur et jouer avec les appels plutôt que de le mettre en dure dans l'html afin de simplifier la "confiuration" de Blockly
+- [ ] Regarder comment récupérer le code généré par Blockly
+  - Générer du code Python à envoyer au serveur lors des executions de l'éditeur de source à travers Blockly
+- [ ] Se pencher sur la corredpondance entre l'exercice en cours avec ses langages supportées et Blockly
+- [ ] Générer un schéma Blockly à partir d'un code Python
 ** 13 avril
 *** Activité
 - Création d'un langage Blockly (code en python)
@@ -121,13 +180,16 @@
   la même taille que les autres langages
 - Situation de l'ajout d'un nouvel exercice avec Blockly disponible ?
 *** Objectif
-- Remplacer l'aspect de l'éditeur de source actuel par l'interface de
+- [X] Ajouter Blockly dans la liste des langages
+- [ ] Permettre la selection de Blockly dans la liste des langages
+  - Remplacer l'aspect de l'éditeur de source actuel par l'interface de
   Blockly lorsqu'on sélectionne Blockly comme langage
   - Création de blocs correspondant aux fonctions déjà fournis par
     l'enseignant
-- Générer du code python à envoyer au serveur lors des executions de
-  l'éditeur de source à travers Blockly
-- Générer un affichage Blockly à partir d'un code en python
+- [ ] Regarder comment récupérer le code généré par Blockly (probablement en Python mais à définir)
+  - Générer du code Python à envoyer au serveur lors des executions de l'éditeur de source à travers Blockly
+- [ ] Se pencher sur la correspondance entre l'exercice en cours avec ses langages supportées et Blockly
+- [ ] Générer un schéma Blockly à partir d'un code Python
 ** 10 avril
 *** Activité
 - Suite des modifications pour l'ajout de Blockly en langage disponible
@@ -139,10 +201,14 @@
 - Précédentes modifications réalisées sur un fork de la mauvaise
   branche du projet PLM
 *** Objectif
-- Refaire les modifications des classes LangBlockly et Game
-- Ajouter Blockly comme langage pour le premier exercice
- - Création de nouveaux fichiers en .blockly dupliqués des .py pour commencer
- - Trouver un moyen de générer un schéma Blockly à partir d'un code python
+- [ ] Ajouter Blockly dans la liste des langages
+  - Refaire les modifications des classes LangBlockly et Game
+- [ ] Permettre la selection de Blockly dans la liste des langages
+  - Ajouter Blockly comme langage pour un seul exercice
+  - Création de nouveaux fichiers en .blockly dupliqués des .py pour commencer
+- [ ] Regarder comment récupérer le code généré par Blockly (probablement en Python mais à définir) 
+- [ ] Se pencher sur la correspondance entre l'exercice en cours avec ses langages supportées et Blockly
+- [ ] Générer un schéma Blockly à partir d'un code python
 ** 9 avril
 *** Activité
 - Finition installation de l'environnement de travail (dépôt, fork, pull, gcc...)
@@ -162,14 +228,14 @@
 - Liaison entre les deux projets sur lesquels j'ai effectué des
   fork/branches automatique ou paramétrages à effectuer ?
 *** Objectif
-- Ajouter Blockly dans la liste des langages
-- Permettre la selection de Blockly dans la liste des langages
-- Modification de l'affichage de la zone du code pour laisser la place
-  à Blockly
-- Se pencher sur la correspondance entre l'exercice en cours avec ses
-  langages supportés et Blockly
-- Regarder comment récupérer le code généré par Blockly (probablement
-  en python mais à définir)
+- [X] Test de fonctionnement des différents outils déjà existants pour les associer pour un rendu les comprennants
+  - Principes intéressants mis en oeuvres dans les démos de Blockly (iFrame, Toolbox, Code Editor, Block Factory)
+- [ ] Ajouter Blockly dans la liste des langages
+- [ ] Permettre la selection de Blockly dans la liste des langages
+- [ ] Modification de l'affichage de la zone du code pour laisser la place à Blockly
+- [ ] Regarder comment récupérer le code généré par Blockly (probablement en python mais à définir)
+- [ ] Se pencher sur la correspondance entre l'exercice en cours avec ses langages supportés et Blockly
+- [ ] Créer des Blocks à partir d'un morceau de code
 ** 8 avril
 *** Activité
 - Documentation
@@ -196,9 +262,12 @@
   - Avec Monde et Objectif dans un autre onglet
     - A la place de l'éditeur de source actuel
 *** Objectif
-- Test de fonctionnement des différents outils déjà existants pour les
-  associer pour un rendu les comprennants
-- Chercher un moyen de passer du code à la création de blocks
+- [X] Regarder le retour de Blockly (langague, forme)
+  - Choix porté sur une génération en Python
+- [X] Chercher une liaison réalisable entre Blockly et PLM
+  - Insérer Blockly comme un "langage" classique
+- [ ] Test de fonctionnement des différents outils déjà existants pour les associer pour un rendu les comprennants
+- [ ] Créer des Blocks à partir d'un morceau de code
 ** 7 avril
 *** Activité
 - Création dépot de Reporting
@@ -212,5 +281,5 @@
  - En supplément de la zone où s'affiche les commandes (avec l'un ou
    l'autre ou les deux modifiables et mise à jour du second)
 *** Objectif
-- Regarder le retour de Blockly (language, forme)
-- Rechercher une liaison réalisable entre Blockly et PLM
+- [ ] Regarder le retour de Blockly (language, forme)
+- [ ] Rechercher une liaison réalisable entre Blockly et PLM
