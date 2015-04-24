@@ -1,6 +1,6 @@
 *** TODO
 * Bibliographie
-- Base PLM
+- [[https://github.com/oster/PLM][Base PLM]]
   - https://github.com/oster/PLM
 - Fork PLM
   - https://github.com/BaptisteMounier/PLM
@@ -10,6 +10,18 @@
   - https://github.com/BaptisteMounier/webPLM
 - Base Blockly
   - https://github.com/google/blockly
+* Utilisation
+** WebPLM
+- Ce reporting fait réference à un , ce projet est une version de WebPLM utilisant Blockly comme un langages de programmation. Il utilise Play Framework en Back-end et AngularJS en front-end.
+** Démarrage
+- Il est d'abord nécessaire d'installer Play Framework
+- Puis de cloner le dépôt WebPLM
+  - git clone https://github.com/BaptisteMounier/webPLM.git
+- Il faut ensuite lancer le serveur
+  - cd path/webPLM
+  - activator start
+- Enfin d'accèder au site web
+  - http://localhost:9000
 * Journal
 ** 24 avril
 *** Activité
