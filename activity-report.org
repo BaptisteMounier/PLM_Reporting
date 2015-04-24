@@ -1,27 +1,28 @@
 *** TODO
 * Bibliographie
 - Base PLM
- - https://github.com/oster/PLM
+  - https://github.com/oster/PLM
 - Fork PLM
- - https://github.com/BaptisteMounier/PLM
+  - https://github.com/BaptisteMounier/PLM
 - Base WebPLM
- - https://github.com/MatthieuNICOLAS/webPLM
+  - https://github.com/MatthieuNICOLAS/webPLM
 - Fork WebPLM
- - https://github.com/BaptisteMounier/webPLM
+  - https://github.com/BaptisteMounier/webPLM
 - Base Blockly
- - https://github.com/google/blockly
+  - https://github.com/google/blockly
 * Journal
 ** 22 avril
 *** Activité
 - Ajuster le code généré
- - Réalisation de l'exercice Moria possible à l'aide de Blockly
+  - Réalisation de l'exercice Moria possible à l'aide de Blockly
 - Permettre à l'utilisateur de créer son propre block fonction
 *** Problème
-- L'ajout des blocks créés par l'utilisateur dans le menu de block de gauche
+- L'ajout des blocks créés par l'utilisateur dans le menu de block de
+  gauche
 *** Objectif
 - Réussir à utiliser les blocks créés par l'utilisateur
 - Définir tous les blocks de base nécessaires pour PLM
- - Et les séparer par exercice
+  - Et les séparer par exercice
 ** 21 avril
 *** Activité
 - Génération du code depuis Blockly
@@ -35,71 +36,80 @@
 ** 20 avril
 *** Activité
 - Création d'un début de base de block
- - Basé pour le moment sur l'exercice Moria
- - Génération de code python pour chaque block ajouté
+  - Basé pour le moment sur l'exercice Moria
+  - Génération de code python pour chaque block ajouté
 *** Problème
 - La génération pose encore quelques problèmes
- - Erreur js levées
- - Retour chariot dans la chaine de caractère formée
+  - Erreur js levées
+  - Retour chariot dans la chaine de caractère formée
 *** Objectif
 - Corriger les problèmes liés à la génération du code
 - Faire le lien entre l'exercice lancé et les blocks disponibles
 - Former toute la base de block
 ** 17 avril
 *** Activité
-- Limitation de la taille de blockly pour éviter un agrandissement de la fenêtre à chaque action
+- Limitation de la taille de blockly pour éviter un agrandissement de
+  la fenêtre à chaque action
 - Ajout de bloquly dans la liste des langages
 - Ajout de quelques nouveaux blocs de test
 *** Problème
 - Blockly n'apparait qu'après avoir modifier la taille de la fenêtre web
- - Problème à éclaircir
+  - Problème à éclaircir
 *** Objectif
 - Rendre immédiat l'affichage de blockly à sa sélection
 - Mettre en place tous les blocs d'un exercice
- - Afin de pouvoir continuer l'ajout complet de blockly pour une situation
+  - Afin de pouvoir continuer l'ajout complet de blockly pour une situation
 - Création de tous les blocks nécessaire à PLM
- - Séparation de leur ajout dans la liste disponible suivant l'exercice en cours
+  - Séparation de leur ajout dans la liste disponible suivant
+    l'exercice en cours
 - Gestion de la sortie (en code) de blockly pour l'execution de l'exercice
  - Et pour le stockage
 ** 16 avril
 *** Activité
-- Mise en place de blockly avec AngularJS en m'appuyant sur la réalisation de cdjackson
- - Séparation de .service .provider .config .directive
-  - Pour rester dans la structure du projet existant
- - Non fonctionnelle pour le moment
+- Mise en place de blockly avec AngularJS en m'appuyant sur la
+  réalisation de cdjackson
+  - Séparation de .service .provider .config .directive
+    - Pour rester dans la structure du projet existant
+  - Non fonctionnelle pour le moment
 *** Problème
 *** Objectif
 - Terminer la séparation pour un outil blockly fonctionnel
 - Poursuivre avec la liaison du code fournis par un schéma Blockly
 ** 15 avril
 *** Activité
-- Test pour extraire Blockly de la iframe pour une implentation en passant par une directive/service
- - Configuration direct, sans jongler avec les getteur/setteur de la iframe et de la page direct
- - Plus "propre" à mon sens
- - Utilisation de services d'AngularJS
+- Test pour extraire Blockly de la iframe pour une implentation en
+  passant par une directive/service
+  - Configuration direct, sans jongler avec les getteur/setteur de la
+    iframe et de la page direct
+  - Plus "propre" à mon sens
+  - Utilisation de services d'AngularJS
 *** Problème
 - Fonctionnement des outils AngularJS mal connus
-- Liaison concrète entre les fonctions codées et celles existantes de Blockly encore flou
+- Liaison concrète entre les fonctions codées et celles existantes de
+  Blockly encore flou
 *** Objectif
 - Finir l'extraction de la iframe vers un état stable
 - Commencer les liaisons avec la page web
- - Tel que : Run => Génération de code
+  - Tel que : Run => Génération de code
 - Générer le code du schèma Blockly
 ** 14 avril
 *** Activité
 - Affichage de l'interface Blockly
 - Retouche image et code de la base plm pour Blockly
- - Mauvaise taille image
+  - Mauvaise taille image
 *** Problème
 - Lien entre Angularjs et Blockly à approfondir
 *** Objectif
 - Modification de l'ajout de l'interface de Blockly
- - A mettre dans des fichiers extérieur et jouer avec les appels plutôt que de le mettre en dure dans l'html afin de simplifier la "confiuration" de Blockly
- - Penser à la génération de code
+  - A mettre dans des fichiers extérieur et jouer avec les appels
+    plutôt que de le mettre en dure dans l'html afin de simplifier la
+    "confiuration" de Blockly
+  - Penser à la génération de code
 ** 13 avril
 *** Activité
 - Création d'un langage Blockly (code en python)
-- Son ajout dans les listes de langages disponibles pour quelques exercices
+- Son ajout dans les listes de langages disponibles pour quelques
+  exercices
 - Affichage du code correspondant dans l'éditeur de source
 - Ajout nouveau .jar dans le webPLM
 - Documentation
@@ -107,12 +117,16 @@
  - Blockly
  - Implémentation actuelle
 *** Problème
-- L'élément Blockly dans la liste des langages disponible n'est pas à la même taille que les autres langages
+- L'élément Blockly dans la liste des langages disponible n'est pas à
+  la même taille que les autres langages
 - Situation de l'ajout d'un nouvel exercice avec Blockly disponible ?
 *** Objectif
-- Remplacer l'aspect de l'éditeur de source actuel par l'interface de Blockly lorsqu'on sélectionne Blockly comme langage
- - Création de blocs correspondant aux fonctions déjà fournis par l'enseignant
-- Générer du code python à envoyer au serveur lors des executions de l'éditeur de source à travers Blockly
+- Remplacer l'aspect de l'éditeur de source actuel par l'interface de
+  Blockly lorsqu'on sélectionne Blockly comme langage
+  - Création de blocs correspondant aux fonctions déjà fournis par
+    l'enseignant
+- Générer du code python à envoyer au serveur lors des executions de
+  l'éditeur de source à travers Blockly
 - Générer un affichage Blockly à partir d'un code en python
 ** 10 avril
 *** Activité
@@ -131,58 +145,72 @@
  - Trouver un moyen de générer un schéma Blockly à partir d'un code python
 ** 9 avril
 *** Activité
-- Finition installation de l'environnement de travail (dépôt, ,fork, pull, gcc...)
+- Finition installation de l'environnement de travail (dépôt, fork, pull, gcc...)
 - Début des mofications de l'existant pour tester de quoi fait quoi et où
 - Conférence sur la sécurité informatique
-- Début des tentatives d'ajout de Blockly comme un nouveau langage dans la liste
- - Création classe PLM/src/plm/core/lang/LangBlockly.java
- - Modification classe PLM/src/plm/core/model/Game.java
+- Début des tentatives d'ajout de Blockly comme un nouveau langage
+  dans la liste
+  - Création classe PLM/src/plm/core/lang/LangBlockly.java
+  - Modification classe PLM/src/plm/core/model/Game.java
 *** Problème
-- Ajout du "langage" Blockly dans la base du projet, PLM de base (en cours de réalisation) ou ajout à partir de la version web ?
- - Version web
-- Taille maximal de l'image du langage (j'ai ajouté une image de 5 ko alors que les images actuelles font au maximum 1 ko) ?
- - Pas de problème
-- Liaison entre les deux projets sur lesquels j'ai effectué des fork/branches automatique ou paramétrages à effectuer ?
+- Ajout du "langage" Blockly dans la base du projet, PLM de base (en
+  cours de réalisation) ou ajout à partir de la version web ?
+  - Version web
+- Taille maximal de l'image du langage (j'ai ajouté une image de 5 ko
+  alors que les images actuelles font au maximum 1 ko) ?
+  - Pas de problème
+- Liaison entre les deux projets sur lesquels j'ai effectué des
+  fork/branches automatique ou paramétrages à effectuer ?
 *** Objectif
 - Ajouter Blockly dans la liste des langages
 - Permettre la selection de Blockly dans la liste des langages
-- Modification de l'affichage de la zone du code pour laisser la place à Blockly
-- Se pencher sur la correspondance entre l'exercice en cours avec ses langages supportés et Blockly
-- Regarder comment récupérer le code généré par Blockly (probablement en python mais à définir)
+- Modification de l'affichage de la zone du code pour laisser la place
+  à Blockly
+- Se pencher sur la correspondance entre l'exercice en cours avec ses
+  langages supportés et Blockly
+- Regarder comment récupérer le code généré par Blockly (probablement
+  en python mais à définir)
 ** 8 avril
 *** Activité
 - Documentation
- - Syntaxe programmes en C, Phyton, Scala
+  - Syntaxe programmes en C, Phyton, Scala
 - Etude de l'existant
- - WebPLM, Structure du projet
+  - WebPLM, Structure du projet
 - Outils actuels intéressant pour Blockly (https://developers.google.com/blockly/)
- - Resizable, permettant de donner une taille dynamique par rapport à la page
- - Toolbox, permettant de créer des catégories de block (dans le menu)
- - Block Factory, permettant de créer ses propres blocks (dans le cas de la création d'un fonction pour par un enseignant un exercice)
- - Generate JavaScript, traduisant les blocks en js et qui l'execute
- - JS Interpreter, traduction en js et execution pas à pas avec notification du block en cours
- - Code Editor : traduction des blocks en js ou Python ou Dart ou XML
+  - Resizable, permettant de donner une taille dynamique par rapport à la page
+  - Toolbox, permettant de créer des catégories de block (dans le menu)
+  - Block Factory, permettant de créer ses propres blocks (dans le cas
+    de la création d'un fonction pour par un enseignant un exercice)
+  - Generate JavaScript, traduisant les blocks en js et qui l'execute
+  - JS Interpreter, traduction en js et execution pas à pas avec
+    notification du block en cours
+  - Code Editor : traduction des blocks en js ou Python ou Dart ou XML
 *** Problème
 - Ajout potentiellement possible : définir un nombre maximum de block
 - Où mettre la fenêtre de Blockly ?
- - Dans un onglet au même niveau que Resultat et Logs afin de pouvoir voir le code et les blocks en même temps
- - Dans une nouvelle zone mais qui risque de réduire la taille dédiée aux autres
- - Entre le code et le résultat
- - Avec Monde et Objectif dans un autre onglet
-  - A la place de l'éditeur de source actuel
+  - Dans un onglet au même niveau que Resultat et Logs afin de pouvoir
+    voir le code et les blocks en même temps
+  - Dans une nouvelle zone mais qui risque de réduire la taille dédiée
+    aux autres
+  - Entre le code et le résultat
+  - Avec Monde et Objectif dans un autre onglet
+    - A la place de l'éditeur de source actuel
 *** Objectif
-- Test de fonctionnement des différents outils déjà existants pour les associer pour un rendu les comprennants
+- Test de fonctionnement des différents outils déjà existants pour les
+  associer pour un rendu les comprennants
 - Chercher un moyen de passer du code à la création de blocks
 ** 7 avril
 *** Activité
 - Création dépot de Reporting
 - Réalisation des cours sur Angular.JS de Code School
-- Première exploration de Blockly (documentation et code source sur GitHub)
+- Première exploration de Blockly (documentation et code source sur
+  GitHub)
 - Exploration de l'implémentation actuelle de PLM
 *** Problème
 - Rendu de l'ajout de Blockly
  - Blockly comme un language (dans le menu au même titre que java, scala...)
- - En supplément de la zone où s'affiche les commandes (avec l'un ou l'autre ou les deux modifiables et mise à jour du second)
+ - En supplément de la zone où s'affiche les commandes (avec l'un ou
+   l'autre ou les deux modifiables et mise à jour du second)
 *** Objectif
 - Regarder le retour de Blockly (language, forme)
 - Rechercher une liaison réalisable entre Blockly et PLM
