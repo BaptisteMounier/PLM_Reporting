@@ -7,7 +7,7 @@
 - [[https://github.com/google/blockly][Base Blockly]]
 * Utilisation
 ** WebPLM
-- Ce reporting fait réference à [[https://github.com/BaptisteMounier/webPLM][Fork WebPLM]], ce projet est une version de [[https://github.comb.com/matthieunicolas/webPLM][Base WebPLM]] utilisant [[https://github.com/google/blockly][Base Blockly]] comme un langages de programmation. Il utilise [[https://www.playframework.com/][Play Framework] en Back-end et [[https://angularjs.org/][AngularJS]] en front-end.
+- Ce reporting fait réference à [[https://github.com/BaptisteMounier/webPLM][Fork WebPLM]], ce projet est une version de [[https://github.comb.com/matthieunicolas/webPLM][Base WebPLM]] utilisant [[https://github.com/google/blockly][Base Blockly]] comme un langages de programmation. Il utilise [[https://www.playframework.com/][Play Framework]] en Back-end et [[https://angularjs.org/][AngularJS]] en front-end.
 ** Démarrage
 - Il est d'abord nécessaire d'[[https://www.playframework.com/documentation/2.3.x/Installing][installer Play Framework]]
 - Puis de cloner le dépôt [[https://github.com/BaptisteMounier/webPLM][Fork WebPLM]]
