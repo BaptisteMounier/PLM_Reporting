@@ -11,7 +11,7 @@
 ** Démarrage
 - Il est d'abord nécessaire d'[[https://www.playframework.com/documentation/2.3.x/Installing][installer Play Framework]]
 - Puis de cloner le dépôt [[https://github.com/BaptisteMounier/webPLM][Fork WebPLM]]
-  - 'git clone https://github.com/BaptisteMounier/webPLM.git'
+  - "git clone https://github.com/BaptisteMounier/webPLM.git"
 - Il faut ensuite lancer le serveur
   - cd path/webPLM
   - activator start
