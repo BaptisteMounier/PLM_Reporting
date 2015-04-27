@@ -95,10 +95,10 @@
 *** Activité
 - Limitation de la taille de blockly pour éviter un agrandissement de
   la fenêtre à chaque action
-- Ajout de bloquly dans la liste des langages
+- Ajout de blockly dans la liste des langages
 - Ajout de quelques nouveaux blocs de test
 *** Problème
-- Blockly n'apparait qu'après avoir modifier la taille de la fenêtre web
+- Blockly n'apparait qu'après avoir modifié la taille de la fenêtre web
   - Problème à éclaircir
 *** Objectif
 - [X] Modification de l'ajout de l'interface de Blockly
