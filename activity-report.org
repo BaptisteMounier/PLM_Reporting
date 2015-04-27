@@ -20,6 +20,23 @@
   - [[http://localhost:9000][localhost:9000]]
   - Bockly n'est actuellement disponible que pour l'exercice Moria dans Welcome
 * Journal
+** 27 avril
+*** Activité
+- Mise en place choix des blocs disponibles suivant l'exercice
+  - En dure dans exercise.controller et uniquement entre Moria et Conditions
+- Réflexion sur le déplacement du choix des blocs disponibles vers une façon plus globale
+  - Probablement stockage des toolbox pour chaque exercice dans un fichier Json au même niveau que MoriaEntity.blockly
+  - A approfondir
+*** Problème
+- Quelques erreurs au changement d'exercice
+  - Attribut sur des élements null
+  - Apparition inconnue (même lorsque le langage n'est pas Blockly)
+*** Objectif
+- [ ] Lier Blockly avec l'exercice en cours
+  - Généraliser le choix de la toolbox
+- [ ] Gestion du stockage du code généré
+- [ ] Générer un schéma Blockly
+  - Langage d'origine à définir
 ** 24 avril
 *** Activité
 - Divers test sur le passage de la toolbox depuis exercise.controller.js
