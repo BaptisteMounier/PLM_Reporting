@@ -31,6 +31,10 @@
 - Quelques erreurs au changement d'exercice
   - Attribut sur des élements null
   - Apparition inconnue (même lorsque le langage n'est pas Blockly)
+- Raccordement reste du projet
+  - Au niveau la création d'un nouvel exercice
+    - Obligation de créer le fichier de la toolbox, de la solution python en .blockly de créer le .jar et puis faire tous les blocs si non existant (bloc du type "move_forward")
+    - Un peu lourd non ?
 *** Objectif
 - [ ] Lier Blockly avec l'exercice en cours
   - Généraliser le choix de la toolbox
