@@ -12,11 +12,13 @@
 - Il est d'abord nécessaire d'[[https://www.playframework.com/documentation/2.3.x/Installing][installer Play Framework]]
 - Puis de cloner le dépôt [[https://github.com/BaptisteMounier/webPLM][Fork WebPLM]]
   - git clone https://github.com/BaptisteMounier/webPLM.git
+  - Se déplacer sur la branche "blockly_angularJS"
 - Il faut ensuite lancer le serveur
   - cd path/webPLM
   - activator start
 - Enfin d'accèder au site web
   - [[http://localhost:9000][localhost:9000]]
+  - Bockly n'est actuellement disponible que pour l'exercice Moria dans Welcome
 * Journal
 ** 24 avril
 *** Activité
