@@ -20,6 +20,22 @@
   - [[http://localhost:9000][localhost:9000]]
   - Bockly n'est actuellement disponible que pour l'exercice Moria dans Welcome
 * Journal
+** 28 avril
+*** Activité
+- Mise en place d'une Toolbox différente suivant l'exercice
+  - Coder dans exercise.controller en dure pour un choix entre Moria et Conditions
+*** Problème
+- Pour la toolbox, quels blocks disponibles ?
+  - Le strict minimum pour la réalisation
+  - Tous les blocs du même type que ceux nécessaires ?
+    - Exemple : nécessaire => forward, right / même type => backward, forward(x), backward(x), left, back
+- 
+*** Objectif
+- [ ] Lier Blockly avec l'exercice en cours
+  - Déplacer la toolbox dans la base de PLM
+  - Généraliser et créer les toolbox pour tous les exercices Welcome
+- [ ] Gestion du stockage du code généré
+- [ ] Généré un schéma Blockly
 ** 27 avril
 *** Activité
 - Mise en place choix des blocs disponibles suivant l'exercice
