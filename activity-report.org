@@ -20,6 +20,19 @@
   - [[http://localhost:9000][localhost:9000]]
   - Bockly n'est actuellement disponible que pour l'exercice Moria dans Welcome
 * Journal
+** 29 avril
+*** Activité
+- Lier Blockly à l'exercice en cours
+  - Création d'un fichier type ConditionsBlocks.json au même niveau que ConditionsEntity.blockly
+  - Nouvelle méthode setToolbox() dans Lecture.java qui charge en attribut la toolbox dans le fichier .json sous forme d'une chaine et de getToolbox()
+  - Appel de setToolbox dans le constructeur de Conditions.java
+  - Ajout d'un champ dans LectureToJson pour la toolbox
+*** Problème
+*** Objectif
+- [X] Lier Blockly avec l'exercice en cours
+- [ ] Créer les toolbox de tous les exercices de Welcome
+- [ ] Gestion du stockage du code généré
+- [ ] Générer un schéma Blockly
 ** 28 avril
 *** Activité
 - Mise en place d'une Toolbox différente suivant l'exercice
