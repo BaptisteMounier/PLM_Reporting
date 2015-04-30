@@ -18,8 +18,22 @@
   - activator start
 - Enfin d'accèder au site web
   - [[http://localhost:9000][localhost:9000]]
-  - Bockly n'est actuellement disponible que pour l'exercice Moria dans Welcome
 * Journal
+** 30 avril
+*** Activité
+- Création des toolbox pour les exercices de Welcome
+  - Reste des détails à finir
+*** Probème
+- Des fonctions spécifiques à certains exercices sont passées à travers l'API
+  - Création des blocs correspondant à faire
+- Fonctionnement des couleurs à modifier pour avoir un block de couleur pour les test logique sur la couleur
+- Se pencher sur le fonctionnement pour les langages des exercices ne contenant pas de fichier ExerciseEntity.lang
+*** Objectif
+- [ ] Créer les toolbox de tous les exercices de Welcome
+  - Régler les derniers problèmes de couleurs et fonctions non créées
+  - Etudier le fonctionnement des exercices ne disposant pas d'Entity
+- [ ] Gestion du stockage du code généré
+- [ ] Générer un schéma Blockly
 ** 29 avril
 *** Activité
 - Lier Blockly à l'exercice en cours
@@ -42,7 +56,6 @@
   - Le strict minimum pour la réalisation
   - Tous les blocs du même type que ceux nécessaires ?
     - Exemple : nécessaire => forward, right / même type => backward, forward(x), backward(x), left, back
-- 
 *** Objectif
 - [ ] Lier Blockly avec l'exercice en cours
   - Déplacer la toolbox dans la base de PLM
