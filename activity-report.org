@@ -19,6 +19,18 @@
 - Enfin d'accèder au site web
   - [[http://localhost:9000][localhost:9000]]
 * Journal
+** 04 mai
+*** Activité
+- Gestion de Blockly par les exercices qui ne sont pas de la forme ExerciseEntity.lang
+*** Problème
+- Création de fonction avec argument par l'utilisateur
+*** Objectif
+- [ ] Créer le stoolbox de tous les exercices de Welcome
+  - Corriger les fonctios de l'utilisateur (avec argument)
+  - Régler les problèmes de couleurs et fonctions non créées
+- [ ] Gestion du stockage du code généré
+- [ ] Générer un schéma Blockly
+- [ ] Gestion de la traduction
 ** 30 avril
 *** Activité
 - Création des toolbox pour les exercices de Welcome
