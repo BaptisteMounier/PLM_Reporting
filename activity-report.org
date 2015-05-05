@@ -19,14 +19,26 @@
 - Enfin d'accèder au site web
   - [[http://localhost:9000][localhost:9000]]
 * Journal
+** 05 mai
+*** Activité
+- Correction problème des blocks de procedures des utilisateurs
+- 1ère exploration du fonctionnement de l'exportation
+*** Problème
+- La résolution du problème des blocks de procedures est très étrange (mise en garde à mettre)
+*** Objectif
+- [ ] Créer les toolbox de tous les exercices de Welcome
+  - Régler les problèmes de couleurs et fonctions non créées
+- [ ] Gestion du stockage du code généré
+- [ ] Générer un schéma Blockly
+- [ ] Gestion de la traduction
 ** 04 mai
 *** Activité
 - Gestion de Blockly par les exercices qui ne sont pas de la forme ExerciseEntity.lang
 *** Problème
 - Création de fonction avec argument par l'utilisateur
 *** Objectif
-- [ ] Créer le stoolbox de tous les exercices de Welcome
-  - Corriger les fonctios de l'utilisateur (avec argument)
+- [ ] Créer les toolbox de tous les exercices de Welcome
+  - Corriger les fonctions de l'utilisateur (avec argument)
   - Régler les problèmes de couleurs et fonctions non créées
 - [ ] Gestion du stockage du code généré
 - [ ] Générer un schéma Blockly
