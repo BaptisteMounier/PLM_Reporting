@@ -19,6 +19,17 @@
 - Enfin d'accèder au site web
   - [[http://localhost:9000][localhost:9000]]
 * Journal
+** 06 mai
+*** Activité
+- 1er listing des blocks à refaire
+- Début de mise en place de blocks Color
+*** Problème
+*** Objectif
+- [ ] Créer les toolbox de tous les exercices de Welcome
+  - Régler les problèmes de couleurs et fonctions non crées
+- [ ] Gestion du stockage du code généré
+  - Regarder le cheminement actuel hors blockly
+- [ ]Gestion de la traduction
 ** 05 mai
 *** Activité
 - Correction problème des blocks de procedures des utilisateurs
@@ -29,7 +40,7 @@
 - [ ] Créer les toolbox de tous les exercices de Welcome
   - Régler les problèmes de couleurs et fonctions non créées
 - [ ] Gestion du stockage du code généré
-- [ ] Générer un schéma Blockly
+- [X] Générer un schéma Blockly
 - [ ] Gestion de la traduction
 ** 04 mai
 *** Activité
