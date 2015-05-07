@@ -19,6 +19,32 @@
 - Enfin d'accèder au site web
   - [[http://localhost:9000][localhost:9000]]
 * Journal
+** 07 mai
+*** Activité
+- Poursuite création des blocks manquant
+  - Color, Direction ...
+  - List
+- Début de correction blocks get pour les List
+*** Problème
+- Pour les fonctions spécifiques à un seul exercice et codées dans le fichier de l'exercice mais non visible par l'étudiant.
+  - Créer un block se servant de la fonction. (état actuel; mais le block est inutilisable hors de l'exercice)
+  - Créer un block créant la fonction.
+  - Déplacement de la fonction côté serveur.
+  - Cas : isOverOrange()/isGroundWhite()/crossing()/exitReaching/getIndication()
+- Stockage et chargement du code étudiant réalisable en xml mais envois en résultat en python
+  - Séparer la correction Blockly (en .py, le même que pour la correction Python) et les blocks données de base pour l'exercice dans un autre fichier ?
+- Le blocks get pour les List ne s'affiche pas correctement à l'ajout
+- Pas de block while avec condition en fin d'execution (inexistant dans le fichier de correction .py)
+- Block de boucle for très différent ("count with x from a to b by c")
+- Pas de block pour réaliser un append sur une liste
+- Que faire pour les exercices demandant un copié/coller de l'exercice précédent ?
+  - On peut dupliquer les blocks mais que dans le "même" Blockly
+*** Objectif
+- [ ] Créer les toolbox de tous les exercices de Welcome
+  - Correctif block get pour les List
+  - Création block modulo
+- [ ] Gestion du stockage du code généré
+- [ ] Gestion de la traduction
 ** 06 mai
 *** Activité
 - 1er listing des blocks à refaire
@@ -29,7 +55,7 @@
   - Régler les problèmes de couleurs et fonctions non crées
 - [ ] Gestion du stockage du code généré
   - Regarder le cheminement actuel hors blockly
-- [ ]Gestion de la traduction
+- [ ] Gestion de la traduction
 ** 05 mai
 *** Activité
 - Correction problème des blocks de procedures des utilisateurs
