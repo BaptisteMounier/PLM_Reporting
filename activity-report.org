@@ -19,6 +19,32 @@
 - Enfin d'accèder au site web
   - [[http://localhost:9000][localhost:9000]]
 * Journal
+** 11 mai
+*** Activité
+- Correction erreur getteur pour les listes
+  - Bancale : la mise en commentaire de la zone à problème permet pour le moment un fonctionnement complet, à surveiller sur des modifications ultérieures
+- Correction erreur générer un block if à partir d'un code xml
+- Reflexion, stockage
+  - Structure envisagée
+    - ExerciseBlocks.json
+      - Déjà existant
+      - Défini la toolbox
+      - Non obligatoire, une toolbox composé de tous les blocks prend la main à partir du provider si le fichier n'existe pas. Une graduation à réaliser.
+    - ExerciseBase.xml
+      - Défini le workspace, des blocks donnés et placés dans blockly
+      - Si null ou inexistant, workspace vierge
+    - ExerciseEntity.blockly
+      - Déjà existant
+      - Défini l'exercice, la correction
+      - Copié/coller de ExerciseEntity.py avec une épuration des éléments inutils (restriction d'utilisation de certaines méthodes)
+      - Si null ou inexistant, blockly pas disponible pour cet exercice
+*** Problème
+- Précédent
+- Mise à jour adaptée de la zone de consigne pour Blockly
+*** Objectif
+- [X] Créer les toolbox de tous les exercices de Welcome
+- [ ] Gestion du stockage du code généré
+- [ ] Gestion de la traduction
 ** 07 mai
 *** Activité
 - Poursuite création des blocks manquant
