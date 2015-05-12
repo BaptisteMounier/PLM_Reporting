@@ -19,6 +19,16 @@
 - Enfin d'accèder au site web
   - [[http://localhost:9000][localhost:9000]]
 * Journal
+** 12 mai
+*** Activité
+- Début mise en place de l'envois et stockage des blocks placés par l'étudiant sous
+  - Deux fichiers
+    - Schéma créé par l'étudiant au format xml
+    - Code python généré par le schéma
+*** Problème
+*** Objectif
+- [ ] Gestion du stockage du coed généré
+- [ ] Gestion de la traduction
 ** 11 mai
 *** Activité
 - Correction erreur getteur pour les listes
