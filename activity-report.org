@@ -19,6 +19,15 @@
 - Enfin d'accèder au site web
   - [[http://localhost:9000][localhost:9000]]
 * Journal
+** 13 mai
+*** Activité
+- Récupération du code des autres membres du projet.
+  - Gestion des conflits
+- Début implémentation du stockage
+*** Problème
+*** Objectif
+- [ ] Gestion du stockage du code généré
+- [ ] Gestion de la traduction
 ** 12 mai
 *** Activité
 - Début mise en place de l'envois et stockage des blocks placés par l'étudiant sous
@@ -27,7 +36,7 @@
     - Code python généré par le schéma
 *** Problème
 *** Objectif
-- [ ] Gestion du stockage du coed généré
+- [ ] Gestion du stockage du code généré
 - [ ] Gestion de la traduction
 ** 11 mai
 *** Activité
