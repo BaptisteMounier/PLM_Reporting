@@ -19,6 +19,21 @@
 - Enfin d'accèder au site web
   - [[http://localhost:9000][localhost:9000]]
 * Journal
+** 18 mai
+*** Activité
+- Essai de mise en place de stockage
+  - 1er choix : Modification de la varioable "ext" en un tableau
+    - Prendre et mettre tout ce qui est relatif au fonctionnement direct dans path.ext[0], le code généré de blockly et les .lang classiques des autres langages
+    - Prendre et mettre tout ce qui est relatif au visuel dans path.ext[1], le workspace pour le cas de blockly
+    - Mis de côté (entre autre problème avec Akka)
+  - 2nd choix : Se servir de la liste des sourcesFiles
+    - Idem que choix 1 mais avec cette liste : place 1 => fonctionnement
+    - Idem que choix 1 mais avec cette liste : place 2 => visuel
+    - En cours d'essai
+*** Problème
+*** Objectif
+- [ ] Gestion du stockage du code généré
+- [ ] Gestion de la traduction
 ** 13 mai
 *** Activité
 - Récupération du code des autres membres du projet.
