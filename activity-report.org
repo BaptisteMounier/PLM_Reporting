@@ -19,6 +19,19 @@
 - Enfin d'accèder au site web
   - [[http://localhost:9000][localhost:9000]]
 * Journal
+** 19 mai
+*** Activité
+- Poursuite du second choix
+  - Sauvegarde dans la liste sourcesFiles
+  - Modification dans un fichier afin d'effectuer la sauvegarde lors du run grace à la création d'un second élément dans la liste
+*** Problème
+- Modifications réalisées inefficaces, le lieu de modification dans le fichier en question n'est pas parcourru lors de l'execution
+*** Objectif
+- [ ] Corriger l'affichage
+  - Lorsque le site se lance avec une session présente sur Blockly, le langage est bien séléctionné mais c'est l'affichage de Java qui est présent
+- [ ] Gestion du stockage du code généré
+  - Retracer le parcours de l'execution afin d'implémenter la solution correctement
+- [ ] Gestion de la traduction
 ** 18 mai
 *** Activité
 - Essai de mise en place de stockage
