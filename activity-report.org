@@ -19,6 +19,16 @@
 - Enfin d'accèder au site web
   - [[http://localhost:9000][localhost:9000]]
 * Journal
+** 20 mai
+*** Activité
+- Implémentation de la gestion du stockage du côté de PLM
+*** Problème
+- La création deux deux fichiers (.code / .workspace) fonctionnent mais le passage PLM => WebPLM pose problème
+*** Objectif
+- [ ] Corriger l'affichage
+- [ ] Gestion du stockage
+- [ ] Gestion des retours d'erreurs
+- [ ] Gestion de la traduction
 ** 19 mai
 *** Activité
 - Poursuite du second choix
