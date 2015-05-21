@@ -24,9 +24,10 @@
 - Implémentation de la gestion du stockage du côté de PLM
 *** Problème
 - La création deux deux fichiers (.code / .workspace) fonctionnent mais le passage PLM => WebPLM pose problème
+- Lors d'un test en boucle fermée côté client, les blocks générés ont un problème de taille, il est nécessaire de les déplacer pour qu'ils retrouvent leur taille normal
 *** Objectif
-- [ ] Corriger l'affichage
 - [ ] Gestion du stockage
+- [ ] Corriger l'affichage
 - [ ] Gestion des retours d'erreurs
 - [ ] Gestion de la traduction
 ** 19 mai
