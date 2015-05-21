@@ -19,6 +19,17 @@
 - Enfin d'accèder au site web
   - [[http://localhost:9000][localhost:9000]]
 * Journal
+** 21 mai
+*** Activité
+- Exploration gestion stockage côté serveur
+*** Problème
+- L'execution ne s'effectue pas correctement avec Blockly
+  - Code généré bien envoyé de même que le workspace mais aucun changement au niveau de l'aperçu au retour
+*** Objectif
+- [ ] Gestion du stockage
+- [ ] Corriger l'affichage
+- [ ] Gestion des retours d'erreurs
+- [ ] Gestion de la traduction
 ** 20 mai
 *** Activité
 - Implémentation de la gestion du stockage du côté de PLM
