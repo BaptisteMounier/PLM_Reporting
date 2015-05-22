@@ -19,6 +19,36 @@
 - Enfin d'accèder au site web
   - [[http://localhost:9000][localhost:9000]]
 * Journal
+** 22 mai
+*** Activité
+- Correction execution avec Blockly
+- Finition envoie des fichiers de code et de workspace au serveur
+- Approche des rapports d'erreur
+- Approche de la traduction
+*** Problème
+- Stockage
+  - Le serveur n'arrive pas à récupérer la session chez le client
+  - Sauvegarde de l'avancement impossible
+  - currentUser dans PLMActor.scala reste à null
+- Retours d'erreur
+  - Je n'arrive pas à voir/refaire un cas où ils ont besoin de modifications
+  - Les seules erreurs possibles sont du type "Erreur : Vous avez heurté un mur. ça fait mal.  File "<script>", line 14, in <module> File "<script>", line 2, in forward"
+  - Ce sont les mêmes indications que pour le langage Python (dont seul la première partie est exploitable via l'interface WebPLM, la seconde partie n'est pas visible par l'étudiant)
+  - Les autres erreurs du type "Erreur de nom : vous semblez utiliser un identifiant qui n'existe pas. Auriez-vous fait une typo ? NameError("name 'foward' is not defined",) File "<script>", line 0, in <module>" ne sont pas possibles (à moins que j'ai mal défini le block, mais ça l'étudiant n'y pourra rien)
+- Traduction
+  - Système de traduction intégré à Blockly non fonctionnel
+*** Objectif
+- [ ] Gestion du stockage
+  - Ajuster par rapport à la "session"
+- [ ] Corriger l'affichage
+  - Le mauvais chargement au démarrage est également bloqué par le problème de session
+- [ ] Gestion des retours d'erreurs
+  - En fonction du retour sur la section Problème
+- [ ] Gestion de la traduction
+  - Nouvelle implémentation (lié au système de traduction de WebPLM) à envisager
+- [ ] Nétoyage du code
+  - Supression des fonctions non utiles/fonctionnelles récupérées depuis d'autre projets
+  - Mise à jour de la documentation pour les fonctions récupérées depuis d'autres projets
 ** 21 mai
 *** Activité
 - Exploration gestion stockage côté serveur
