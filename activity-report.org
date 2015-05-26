@@ -2,7 +2,7 @@
 * Bibliographie
 - [[https://github.com/oster/PLM][Base PLM]]
 - [[https://github.com/BaptisteMounier/PLM][Fork PLM]]
-- [[https://github.comb.com/matthieunicolas/webPLM][Base WebPLM]]
+- [[https://github.com/MatthieuNICOLAS/webPLM][Base WebPLM]]
 - [[https://github.com/BaptisteMounier/webPLM][Fork WebPLM]]
 - [[https://github.com/google/blockly][Base Blockly]]
 * Utilisation
@@ -19,6 +19,24 @@
 - Enfin d'accèder au site web
   - [[http://localhost:9000][localhost:9000]]
 * Journal
+** 26 mai
+*** Activité
+- Correctif erreur console, translation cadre Blockly
+- Poursuite gestion stockage
+  - Correctif de régression de code, la sauvegarde et le chargement dans les langages de base à nouveau fonctionnel
+*** Problème
+- Workspace non envoyé au client
+*** Objectif
+- [ ] Gestion du stockage
+  - Finir le chargement du workspace depuis le fichier correspondant
+- [ ] Corriger l'affichage
+  - Liéé au stockage
+- [ ] Gestion des retours d'erreurs
+  - Effectuer une série de test pour déterminer quelles erreurs sont possible
+  - Améliorer le rendu du retour d'erreur, enlever les parties non utiles
+  - Faire le lien entre l'erreur et le block en cause
+- [ ] Gestion de la traduction
+- [ ] Nétoyage du code
 ** 22 mai
 *** Activité
 - Correction execution avec Blockly
