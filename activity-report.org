@@ -19,6 +19,17 @@
 - Enfin d'accèder au site web
   - [[http://localhost:9000][localhost:9000]]
 * Journal
+** 28 mai
+*** Activité
+- Correction affichage codemirror lorsqu'on vient d'un affichage Blockly
+- Exploration mfunctions Blockly workspace pour corriger le problème d'affichage des blocks chargé
+*** Problème
+*** Objectif
+- [ ] Finition affichage
+  - Affichage lors d'un changement de langage depuis Blockly
+- [ ] Nétoyage du code
+- [ ] Gestion des retours d'erreurs
+- [ ] Gestion de la traduction
 ** 27 mai
 *** Activité
 - Chargement blocks
