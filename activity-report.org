@@ -19,6 +19,25 @@
 - Enfin d'accèder au site web
   - [[http://localhost:9000][localhost:9000]]
 * Journal
+** 27 mai
+*** Activité
+- Chargement blocks
+*** Problème
+- Affichage des blocks chargés
+  - Ils ne s'affichent pas avec la taille adéquate et nécessite de déplacer les blocks pour les rendre correctement
+- Affichage lors d'un changement de langage depuis Blockly
+  - Le contenu de codemirror ne se met à jour (par rapport au langage avant Blockly) qu'une fois la selection mise dans l'éditeur
+*** Objectif
+- [X] Gestion du stockage
+- [X] Corriger l'affichage
+  - Ce n'était pas un problème, juste l'état normal lors d'un utilisation sans compte
+- [ ] Finition affichage
+  - Affichage des blocks chargés
+  - Affichage lors d'un changement de langage depuis Blockly
+- [ ] Nétoyage du code
+- [ ] Gestion des retours d'erreurs
+  - En attente des test
+- [ ] Gestion de la traduction
 ** 26 mai
 *** Activité
 - Correctif erreur console, translation cadre Blockly
