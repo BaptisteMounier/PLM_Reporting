@@ -19,6 +19,18 @@
 - Enfin d'accèder au site web
   - [[http://localhost:9000][localhost:9000]]
 * Journal
+** 01 juin
+*** Activité
+- Nettoyage du code
+- Exploration du système de rtaduction Blockly actuel
+  - Discution en cours sur un choix d'une autre implémentation
+*** Problème
+- Affichage lorsqu'on passe d'une leçon à une autre en restant sous Blockly
+  - La leçon change mais codemirror prend la main sur l'affichage en laissant Blockly comme langage
+*** Objectif
+- [ ] Nettoyage du code
+- [ ] Gestion des retours d'erreurs
+- [ ] Gestion de la traduction
 ** 29 mai
 *** Activité
 - Correction de l'affichage des blocks lorsqu'on charge un workspace pour Blockly
