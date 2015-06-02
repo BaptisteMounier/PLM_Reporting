@@ -19,6 +19,20 @@
 - Enfin d'accèder au site web
   - [[http://localhost:9000][localhost:9000]]
 * Journal
+** 02 juin
+*** Activité
+- Correction de l'affichage
+- Remise en forme diverse
+- Mise en place structure traduction
+  - Commune avec webPLM
+*** Problème
+*** Objectif
+- [ ] Nettoyage du code
+- [X] Gestion des retours d'erreur
+  - Aucun cas pour le moment, à remettre si on en découvre un
+- [ ] Gestion de la traduction
+  - Générer toutes les chaines de caractère et les traduire
+- [ ] Mise à jour de l'API/instructions pour Blockly
 ** 01 juin
 *** Activité
 - Nettoyage du code
