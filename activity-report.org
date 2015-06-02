@@ -22,12 +22,13 @@
 ** 01 juin
 *** Activité
 - Nettoyage du code
-- Exploration du système de rtaduction Blockly actuel
+- Exploration du système de traduction Blockly actuel
   - Discution en cours sur un choix d'une autre implémentation
 *** Problème
 - Affichage lorsqu'on passe d'une leçon à une autre en restant sous Blockly
   - La leçon change mais codemirror prend la main sur l'affichage en laissant Blockly comme langage
 *** Objectif
+- [ ] Correction de l'affichage
 - [ ] Nettoyage du code
 - [ ] Gestion des retours d'erreurs
 - [ ] Gestion de la traduction
