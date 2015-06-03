@@ -19,6 +19,15 @@
 - Enfin d'accèder au site web
   - [[http://localhost:9000][localhost:9000]]
 * Journal
+** 03 juin
+*** Activité
+- Rapport de stage
+*** Problème
+*** Objectif
+- [ ] Nettoyage du code
+- [ ] Gestion de la traduction
+  - Générer toutes les chaines de caractère et les traduire
+- [ ] Mise à jour de l'API/instructions pour Blockly
 ** 02 juin
 *** Activité
 - Correction de l'affichage
