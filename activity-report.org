@@ -19,6 +19,28 @@
 - Enfin d'accèder au site web
   - [[http://localhost:9000][localhost:9000]]
 * Journal
+** 08 juin
+*** Activité
+- Rapport de stage
+- Correctif erreur message bloc setPos
+*** Problème
+*** Objectif
+- [ ] Nettoyage du code
+- [ ] Gestion de la traduction
+- [ ] Mise à jour de l'API/instructions pour Blockly
+** 05 juin
+*** Activité
+- Rapport de stage
+- Correctif traduction
+- Correctif erreur dans un exercise sans toolbox
+*** Problème
+- Traduction des noms de section de la toolbox ("maths", "move","world")
+*** Objectif
+- [ ] Nettoyage du code
+- [ ] Gestion de la traduction
+  - Vérifier que la traduction est correct
+  - Regarder pour la traduction des noms de sections
+- [ ] Mise à jour de l'API/instructions pour Blokly
 ** 04 juin
 *** Activité
 - Rapport de stage
