@@ -19,6 +19,18 @@
 - Enfin d'accèder au site web
   - [[http://localhost:9000][localhost:9000]]
 * Journal
+** 09 juin
+*** Activité
+- Rapport de stage
+- Nettoyage du code
+*** Poblème
+*** Objectif
+- [ ] Nettoyage du code
+- [ ]Gestion de la traduction
+  - Ne reste que les noms de sections des toolbox
+  - Réaliser et en état stable pour le reste
+- [ ] Mise à jour l'API/instructions
+  - Je ne retrouve pas l'exercice qui m'avait fait voir le problème
 ** 08 juin
 *** Activité
 - Rapport de stage
