@@ -19,6 +19,18 @@
 - Enfin d'accèder au site web
   - [[http://localhost:9000][localhost:9000]]
 * Journal
+** 10 juin
+*** Activité
+- Rapport de stage
+- Tentative correction erreur PC
+*** Problème
+- Erreur sévère windows
+*** Objectif
+- [X] Nettoyage du code
+  - Plus de zone connu à nettoyer
+- [X] Gestion de la traduction
+  - Traduction des noms de sections à voir pour une prochaine implémentation
+- [ ] Fin rapport de stage
 ** 09 juin
 *** Activité
 - Rapport de stage
@@ -26,7 +38,7 @@
 *** Poblème
 *** Objectif
 - [ ] Nettoyage du code
-- [ ]Gestion de la traduction
+- [ ] Gestion de la traduction
   - Ne reste que les noms de sections des toolbox
   - Réaliser et en état stable pour le reste
 - [ ] Mise à jour l'API/instructions
